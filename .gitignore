@@ -1,0 +1,29 @@
+*.iml
+.gradle/
+.idea/
+local.properties
+**/build/
+.cxx/
+.externalNativeBuild/
+.DS_Store
+sherpa-onnx-models/
+/models/
+/dist/
+
+# Local agent and IDE metadata
+**/AGENTS.md
+.codex/
+
+# Local project notes
+docs/README.md
+docs/PLAN.md
+docs/LiteRT_Manual.md
+
+# Local credentials and signing files
+.env
+.env.*
+secrets/
+*.jks
+*.keystore
+*.p12
+*.pem
